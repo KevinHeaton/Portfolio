@@ -1,0 +1,39 @@
+:root {
+    --dark-gray: #272727;
+    --gray: #3d3c3c;
+    --yellow: #E5A024;
+    --blue: #0699c0;
+    --orange: #cf4327;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--gray);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ max-width: 150px;
+}
+
+#header img, .nav img {
+    background-color: var(--dark-gray);
+    display: flex;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: sticky;
+    width: 150px;
+    height: 150px;
+}
+
+
