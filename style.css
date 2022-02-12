@@ -80,7 +80,7 @@ body {
     position: fixed;
 }
 
-.overlay img {
+.overlay {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -92,32 +92,51 @@ body {
 
 /* About Me */
 
-#about-me {
+#about-me, #projects {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     background-color: var(--gray);
-}
-
-#about-me h1 {
     justify-content: center;
     align-content: center;
-    margin: 5px 40%;
+}
+
+.abtitle h1, #projects h1 {
+    text-align: center;
+    margin: 5px;
     font-size: 50px;
 }
 
-.content {
+.abcontent {
+    width:100%;
+    display: flex;
     justify-content: space-between;
 }
 
-.content img {
-    height: 300px;
-    width: 300px;
-    margin: 0;
-    padding: 0 0 5px 20px;
+.abcontent img {
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 210px;
+    width: 200px;
 }
 
-.content p {
-    max-width: 60%;
-    justify-content: center;
+.abcontent p {
+    margin: auto;
+    padding-left: 20px;
 }
+
+
+/* End About Me */
+
+/* Projects */
+
+.run-buddy img {
+    width: 60%;
+}
+
+/* End Projects */
+
+/* Contact */
+
+/* End Contact*/
