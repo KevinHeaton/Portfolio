@@ -162,7 +162,7 @@ body {
     flex-wrap: wrap;
 }
 .filler img {
-    width: 300px;
+    width: 300px; 
     height: 300px;
 }
 
