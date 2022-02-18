@@ -187,4 +187,7 @@ body {
         padding: 20px;
     }
     
+    #about-me, #projects, #contact {
+       width: 100%; 
+    }
 }
