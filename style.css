@@ -137,7 +137,7 @@ body {
     color: var(--yellow);
 }
 
-.run-buddy a, .run-buddy img, .superwiki a img {
+.run-buddy a, .run-buddy img, .superwiki a img, .who-do a img {
     width: 100%;
     display: flex;
     margin: auto;
