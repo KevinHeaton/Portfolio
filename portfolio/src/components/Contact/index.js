@@ -1,17 +1,24 @@
 import React from "react";
+import phone from "../../assets/images/Phone.png";
+import email from "../../assets/images/EmailLogo.png";
+import linkedIn from "../../assets/images/LinkedIn.png";
+import gitHub from "../../assets/images/GitHub.png";
+import resume from "../../assets/images/MyResume.png";
+
 
 function Contact() {
 
   return (
     <address id="contact">
       <div class="contacts">
-      <h1>Contact Me</h1>
+        <h1>Contact Me</h1>
       </div>
       <div class="filler">
-          <img src="./images/Phone.png" alt="" />
-          <a href="mailto:williamkevinheaton@gmail.com"><img src="./images/EmailLogo.png" alt="" /></a>
-          <a href="https://www.linkedin.com/in/kevin-heaton-663b2ab5/"><img src="./images/LinkedIn.png" alt="" /></a>
-          <a href="https://github.com/KevinHeaton"><img src="./images/GitHub.png" alt="" /></a>
+          <img src={phone} alt="Call Kevin at 5125789070" />
+          <a href="mailto: williamkevinheaton@gmail.com"><img src={email} alt="Email Kevin at williamkevinheaton@gmail.com" /></a>
+          <a href="https://www.linkedin.com/in/kevin-heaton-663b2ab5/"><img src={linkedIn} alt="Go to Kevin's LinkedIn Profile" /></a>
+          <a href="https://github.com/KevinHeaton"><img src={gitHub} alt="Go to Kevin's GitHub profile" /></a>
+          <a href="https://drive.google.com/file/d/1mg7O64_6ASW3ADIFP0_cUWcRcJsg-90y/view?usp=sharing"><img src={resume} alt="Go to Kevin's resume" /></a>
       </div>
     </address>
   );
