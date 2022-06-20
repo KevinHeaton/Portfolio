@@ -19,6 +19,7 @@ code {
   --yellow: #E5A024;
   --blue: #0699c0;
   --orange: #cf4327;
+  --brown: #7d683f;
 
 }
 
@@ -35,15 +36,45 @@ body {
   color: var(--orange);
 }
 
+/* for logo at top
+position: sticky;
+top: 0; */
+
 /* Sidebar */
+
+.nav {
+  background-color: var(--dark-gray);
+  position: sticky; top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nav a {
+  margin: 0 20px;
+  padding: 0 20px;
+  height: 125px;
+  width: 125px;
+  background-color: var(--dark-gray);
+}
+
+.nav img {
+  background-color: var(--dark-gray);
+  margin: 0;
+  padding: 0;
+  height: 125px;
+  width: 125px;
+}
+
+.nav img:hover {
+ background-color: var(--gray);
+}
 
 /* End Sidebar */
 
 /* Main Section */
 
-.main {
+main {
   position: relative;
-  margin-left: 125px;
   padding: 0 0;
 }
 
@@ -71,7 +102,7 @@ body {
 
 /* About Me */
 
-#about-me, #projects, #contact {
+#about-me, #projects, #contact, #mission {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -81,7 +112,7 @@ body {
   align-content: center;
 }
 
-.abtitle h1, #projects h1, .contacts h1 {
+.abtitle h1, #projects h1, .contacts h1, .missiontitle h1 {
   text-align: center;
   margin: 5px;
   font-size: 50px;
@@ -109,6 +140,15 @@ body {
 
 
 /* End About Me */
+
+/* Mission */
+
+.missiontitle {
+  color: var(--brown);
+  text-align: center;
+}
+
+/* End Mission */
 
 /* Projects */
 

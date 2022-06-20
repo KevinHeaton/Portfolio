@@ -6,6 +6,7 @@ import About from './components/About';
 import Mission from './components/Mission';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import 'bootstrap';
 
 
 function App() {

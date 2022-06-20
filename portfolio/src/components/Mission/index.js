@@ -4,11 +4,9 @@ function Mission() {
 
 
   return (
-    <article id="about-me">
-      <div className="abtitle">
+    <article id="mission">
+      <div className="missiontitle">
           <h1>Mission</h1>
-      </div>
-      <div className="abcontent">
           <p>
             Place holder.
           </p> 
