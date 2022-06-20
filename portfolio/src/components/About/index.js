@@ -1,4 +1,5 @@
 import React from "react";
+import photo from "../../assets/images/portraite.png"
 
 function About() {
 
@@ -9,10 +10,13 @@ function About() {
           <h1>About Me</h1>
       </div>
       <div className="abcontent">
-          <img src="../../images/portraite.png" alt="Kevin Heaton" />
+          <img src={photo} alt="Kevin Heaton" />
           <p>
-            Front-end web developer employing a background in teaching to create more user friendly experiences. Have earned a certificate in full stack development from the University of Texas Coding Bootcamp, with new skills in HTML, CSS, JavaScript, and more. Always looking for solutions as a relentless problem solver looking for the best responsive designs. Best work is done when working in teams where communication is a top priority. As a part of a high-quality team, a web application that allows people in Austin to post events and allow users to RSVP to them was created. Excited to be a part of a fast paced and driven team to create high-quality, progressive web applications. Best traits are communication, collaboration, and adaptability.
-          </p> 
+            Coding was never something that I imagined myself doing. I had preconceived notions regarding what it meant to be a developer and it felt somewhat out of reach for someone with my experience. However, once I let go of those ideas and gave it a shot I was instantly hooked. I loved being able to create something from scratch and seeing the endless possibilities that programming holds. The more I learned the more I realized you can never know it all and that further fueled my passion. I consider myself a lifelong learner and doing something where you can never stop growing excites me. 
+          <br></br>
+          <br></br>
+            My previous work experience has allowed me to wear many hats and hone many skills. I have been able to work well under pressure and balance multiple priorities in a constantly evolving environment. Through my time in The Coding Boot Camp at UT Austin I have gained experience as a full stack developer, with in-depth knowledge of JavaScript and other widely used languages and a strong understanding of what it means to work in this field. Throughout my time as a teacher and in The Coding Boot Camp, I have also had the opportunity to work with a diverse group of individuals who come from all backgrounds and I pride myself on always maintaining positive and genuine relationships with my colleagues and superiors.
+          </p>  
       </div>  
     </article>
   );

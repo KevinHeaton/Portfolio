@@ -148,6 +148,11 @@ main {
   text-align: center;
 }
 
+.missiontitle p {
+  margin: 50px;
+  text-align: left;
+}
+
 /* End Mission */
 
 /* Projects */

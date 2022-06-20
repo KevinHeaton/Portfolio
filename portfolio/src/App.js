@@ -6,6 +6,7 @@ import About from './components/About';
 import Mission from './components/Mission';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Hero from './components/Hero';
 import 'bootstrap';
 
 
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Nav></Nav>
       <main>
+        <Hero></Hero>
         <About></About>
         <Mission></Mission>
         <Projects></Projects>
