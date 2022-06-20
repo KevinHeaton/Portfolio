@@ -8,10 +8,9 @@ import mission from "../../assets/images/Mission.png";
 
 function Nav() {
   
-
   return (
-    <div className="nav  justify-content-center align-center">
-      <a href=".nav"><img src={logo} alt="Kevin Heaton Software Engineer" /></a>
+    <div className="nav" id="nav">
+      <a href="#hero"><img src={logo} alt="Kevin Heaton Software Engineer" /></a>
       <a href="#about-me"><img src={about} alt="About Me" /></a>
       <a href="#mission"><img src={mission} alt="My Mission" /></a>
       <a href="#projects"><img src={projects} alt="My Projects" /></a>

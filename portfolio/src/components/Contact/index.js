@@ -16,9 +16,9 @@ function Contact() {
       <div class="filler">
           <img src={phone} alt="Call Kevin at 5125789070" />
           <a href="mailto: williamkevinheaton@gmail.com"><img src={email} alt="Email Kevin at williamkevinheaton@gmail.com" /></a>
-          <a href="https://www.linkedin.com/in/kevin-heaton-663b2ab5/"><img src={linkedIn} alt="Go to Kevin's LinkedIn Profile" /></a>
-          <a href="https://github.com/KevinHeaton"><img src={gitHub} alt="Go to Kevin's GitHub profile" /></a>
-          <a href="https://drive.google.com/file/d/1mg7O64_6ASW3ADIFP0_cUWcRcJsg-90y/view?usp=sharing"><img src={resume} alt="Go to Kevin's resume" /></a>
+          <a href="https://www.linkedin.com/in/kevin-heaton-663b2ab5/" target="_blank" rel="noreferrer"><img src={linkedIn} alt="Go to Kevin's LinkedIn Profile" /></a>
+          <a href="https://github.com/KevinHeaton" target="_blank" rel="noreferrer"><img src={gitHub} alt="Go to Kevin's GitHub profile" /></a>
+          <a href="https://drive.google.com/file/d/1mg7O64_6ASW3ADIFP0_cUWcRcJsg-90y/view?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} alt="Go to Kevin's resume" /></a>
       </div>
     </address>
   );
