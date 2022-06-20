@@ -1,6 +1,6 @@
 # Kevin Heaton's Portfolio
 
-##Purpose
+## Purpose
 A website designed to show off Kevin's projects and his skills as a programmer.
 
 ## Currently Built With
